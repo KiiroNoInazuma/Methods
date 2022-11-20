@@ -15,11 +15,10 @@ public class Method_chat {
 
     static double result(int[] arg) {
         double avg = 0;
-        int[] arMass = arg;
-        for (int x : arMass) {
+        for (int x : arg) {
             avg += x;
         }
-        return avg / arMass.length;
+        return avg / arg.length;
     }
 
     static String text(double res) {
